@@ -1,0 +1,71 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0%;
+
+}
+nav{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    height: 10vh;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 0px rgba(0,0,0,0.1); 
+    width: 100%;
+}
+
+nav a{
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    margin: 0 60px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+nav a:hover
+{
+    color: #38b6ff;
+}
+
+body {
+    margin: 0%;
+    background-color: white;
+    background-image: url("Skyline.png");  
+    background-repeat: no-repeat;        
+    background-position: right bottom;       
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.heading
+{
+    color: #38b6ff;
+    font-family: "Google Sans Code";
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+    margin: 0 60px;
+    font: 57;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+      width: 90%;
+      max-width: 900px;
+      margin: 40px auto;
+    }
+
+h1, h2 {
+      color: #38b6ff;
+      text-align: center;
+}

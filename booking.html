@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:wght@600&display=swap" rel="stylesheet">
+    <title>Skyline Explorers</title>
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="menu active">Home</a>
+        <a href="package.html" class="menu">Packages</a>
+        <a href="#booking.html" class="menu">Booking</a>
+        <a href="gallery.html" class="menu">Gallery</a>
+        <a href="about.html" class="menu">About</a>
+    </nav>
+
+    <div class="booking_container">
+    <form class="booking-form">
+    <p class="heading">Travel Booking Form</p>
+
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9876543210" required>
+    </div>
+
+    <div class="form-group">
+      <label for="destination">Destination</label>
+      <select id="destination" name="destination" required>
+        <option value="">-- Select Destination --</option>
+        <option value="paris">Paris, France</option>
+        <option value="tokyo">Tokyo, Japan</option>
+        <option value="newyork">New York, USA</option>
+        <option value="bali">Bali, Indonesia</option>
+        <option value="rome">Rome, Italy</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="dates">Travel Dates</label>
+      <input type="date" id="dates" name="dates" required>
+    </div>
+
+    <div class="form-group">
+      <label for="people">Number of Travelers</label>
+      <input type="number" id="people" name="people" min="1" value="1" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Special Requests</label>
+      <textarea id="message" name="message" placeholder="Any special requirements..."></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn"><span style="font-size: large;">Book Now!</span></button>
+  </form>
+  </div>
+    
+</body>
+</html>
